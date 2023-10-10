@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="hide" style="display: none;">
+        <form action="" style="
+            background-color: orange; 
+            height: 100px; 
+            width:500px; 
+            display: flex; 
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 300px;
+        ">
+            <label for="email">To stay up-to-date with important releases, Subscribe!</label>
+            <input type="email" name="email" id="" >
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+    
+    <script>
+        window.addEventListener( 'mousemove', e => {
+            if( e.clientY > 100 ){
+                document.querySelector('#hide').style.display = 'block'
+            }
+        } )
+    </script>
+</body>
+</html>

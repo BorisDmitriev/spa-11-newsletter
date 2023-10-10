@@ -1,0 +1,20 @@
+{
+  "name": "browser-newsletter-subscription",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --runInBand --forceExit"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run install"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "puppeteer": "^16.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/Browser-NewsletterSubscription",
+    "id": 200860102
+  }
+}
